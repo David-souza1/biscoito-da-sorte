@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    background: linear-gradient(45deg, #190361, #bb00ff);
+	animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+    font-size: 1.6rem;
+
+    font-family: "Montserrat", sans-serif;
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+main {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+     text-align: center;
+    
+    background-color: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+    width: 42.8rem;
+    
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    
+    border-radius: .5rem;
+    
+}
+
+
+
+.bloco {
+   
+    width: 30.0rem;
+    height: 31.2rem;
+}
+
+h1{
+    color: #34355B;
+
+    text-align: center;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    font-family: "DM Sans", sans-serif;
+
+    margin-top: 1.4rem;
+
+    color: #34355B;
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.screen1 img {
+    margin-top: 2.6rem;
+    width: 24.8rem;
+    height: 19.0rem;
+}
+
+.screen1 img:hover {
+    cursor: pointer;
+
+    animation: tremer infinite .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tremer {
+    0%{margin-left: 0;}
+    25%{margin-left: .7rem;}
+    50%{margin-left: 0;}
+    75%{margin-left: -.7rem;}
+    100%{margin-left: 0;}
+}
+
+
+/* screen2 */
+
+.hide {
+    display:none;
+}
+
+.screen2 {
+    
+    width: 30.0rem;
+    height: 46.8rem;
+}
+.bloco2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.7rem;
+    
+
+    
+}
+ 
+.bilhete {
+    font-family: "DM Sans", sans-serif;
+
+    margin-top: 1.4rem;
+
+    display: flex;
+    padding: 1.0rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.0rem;
+    
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    
+    animation: appear .6s;
+}
+
+@keyframes appear{
+    0%{
+        transform: scale(0.7);
+    }
+    
+    50%{
+        transform: scale(1.2);
+    }
+}
+
+.bilhete p{
+    color: #34355B;
+    
+    width: 27.3rem;
+    
+    color: #000;
+    
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+
+h2 {
+    color: #34355B;
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.screen2 img {
+    display: flex;
+    width: 30.0rem;
+    height: 11.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.screen2 button {
+    display: flex;
+    padding: 1.6rem;
+    align-items: flex-start;
+    gap: 1rem;
+
+    border-radius: .4rem;
+    background: #FF9500;
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
